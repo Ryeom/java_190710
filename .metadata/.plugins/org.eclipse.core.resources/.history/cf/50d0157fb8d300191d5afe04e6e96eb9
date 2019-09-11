@@ -1,0 +1,32 @@
+package com.test.demo;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+public class LoginAction implements Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html;charset=UTF-8");
+		System.out.println("login action µå¸£¿Í¾©¾²");
+		
+		System.out.println(req.getParameter("user_id"));
+		System.out.println(req.getParameter("user_pw"));
+		
+		String id = "dmfua";
+		
+		
+		ActionForward forward = new ActionForward();
+		HttpSession session = req.getSession();
+		
+		session.setAttribute("user_id", id);
+		
+		forward.setRedirect(true);
+		forward.setPath("./views/index.jsp");
+		
+		return forward;
+	}
+
+}

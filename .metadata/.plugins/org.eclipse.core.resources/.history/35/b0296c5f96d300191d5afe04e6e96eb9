@@ -1,0 +1,44 @@
+package com.test.demo;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MainController
+ */
+@WebServlet("/MainController")
+public class MainController extends HttpServlet {
+
+	
+	
+	public void doprocess (HttpServletRequest req,HttpServletResponse res) {
+		String RequestURI = req.getRequestURI();
+		String contextPath = req.getContextPath();
+		String command = RequestURI.substring(contextPath.length());
+		
+		ActionForward forward = null;
+		Action action = null;
+		
+		
+		if(command.equals("/signup.m")) {
+			
+		}else if(command.equals("/signup.m")) {
+			
+		}
+		
+		
+		
+	}
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		this.doprocess(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		this.doprocess(request, response);
+	}
+
+}

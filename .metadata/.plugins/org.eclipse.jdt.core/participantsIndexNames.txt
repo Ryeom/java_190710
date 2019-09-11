@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\BIT\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3070039400.index
+\Web01\src
+C:\Users\BIT\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1354465752.index
+\helloWeb\src

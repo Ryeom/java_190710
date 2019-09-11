@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>index.jsp</title>
+</head>
+<body>
+<form action="post">
+<h1>index</h1>
+<h3>id</h3><input type="text" id="user_id" placeholder="your id input plz"/>
+<h3>pw</h3><input type="text" id="user_pw" placeholder="your pw input plz"/>
+</form>
+</body>
+</html>

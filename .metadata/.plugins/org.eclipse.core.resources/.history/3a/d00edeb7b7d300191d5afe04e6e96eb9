@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.jsp</title>
+</head>
+<body>
+
+	<c:when test="${user_id ne null}">
+	<h2>${user_id }님 안녕하세요~!</h2>
+	
+	
+		</c:when>
+		<c:otherwise>
+			<form action="./login.m" method="post">
+				<h1>index</h1>
+				<h3>id</h3><input type="text" id="user_id" placeholder="your id input plz"/>
+				<h3>pw</h3><input type="text" id="user_pw" placeholder="your pw input plz"/>
+				<br/>
+				<button type="submit" >submit</button>
+			</form>
+			
+		</c:otherwise>
+		
+		
+</body>
+</html>

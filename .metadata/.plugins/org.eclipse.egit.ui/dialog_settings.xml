@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Ryeom/Git"/>
+		<item value="https://github.com/Ryeom/astar.git"/>
+		<item value="https://github.com/Ryeom/a-star-algorithm.git"/>
+		<item value="https://github.com/Ryeom/Git.git"/>
+		<item value="https://github.com/Ryeom/Full_Pro_2019.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="ryeom &lt;saewho2@naver.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="ryeom &lt;saewho2@naver.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\BIT\eclipse-workspace\test01\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\BIT\git\repository\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\BIT\git\astar\.git">
+			<item value="false"/>
+			<item value="ryeom &lt;saewho2@naver.com&gt;"/>
+			<item value="&#x0D;&#x0A;&#x0D;&#x0A;Change-Id: I0000000000000000000000000000000000000000&#x0D;&#x0A;"/>
+			<item value="ryeom &lt;saewho2@naver.com&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="382"/>
+		<item key="DIALOG_Y_ORIGIN" value="286"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="540"/>
+		<item key="DIALOG_Y_ORIGIN" value="208"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="583"/>
+		<item key="DIALOG_Y_ORIGIN" value="330"/>
+		<item key="DIALOG_WIDTH" value="530"/>
+		<item key="DIALOG_HEIGHT" value="275"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>
